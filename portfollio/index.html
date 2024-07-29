@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>My Work - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="body .css">
+  </head>
+
+  <body>
+    <header id="header">
+      <h1 class="site-title"><a href="index.html"><img src="img/logo.svg" alt="My Work"></a></h1>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="https://www.instagram.com/" target="_blank">
+              <img class="icon" src="./img/icon-instagram.png" alt="インスタグラム">
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div id="mainvisual">
+        <picture>
+          <source media="(max-width: 600px)" srcset="home.jpg">
+          <img src="home.jpg" alt="">
+        </picture>
+      </div>
+
+      <section id="about" class="wrapper">
+        <h2 class="sec-title">About</h2>
+        <h3>メディア情報学科専攻 X23002 青山</h3>
+        <ul>
+          <li><strong>スキル</strong><br>Illustrator<br>
+            Photoshop<br>Maya</li>
+          <li><strong>プログラミング経験:</strong> c言語</li>
+          <li><strong>mail:</strong> x00000xx@aitech.ac.jp</li>
+        </ul>
+        <p>
+          大学で1年間、Illustrator、Photoshop、Mayaを中心にデジタルアートと3Dモデリングを学びました。これらのツールを用いて、クリエイティブなプロジェクトを実践し、デザインのプロセスと技術的なスキルを磨いてきました。特に3Dモデリングとアニメーション制作において、様々なテクニックを習得し、独自のスタイルと表現方法を追求しています。
+        </p>
+      </section>
+
+      <section id="works" class="wrapper">
+        <h2 class="sec-title">Works</h2>
+        <h3>※画像をクリックすることで詳細を確認できます。</h3>
+        <ul>
+          <li><a href="works1.html"><img src="img/works1.jpg" alt="作品1の説明"></a></li>
+          <li><a href="works2.html"><img src="img/works2.jpg" alt="作品2の説明"></a></li>
+          <li><a href="works3.html"><img src="img/works3.jpg" alt="作品3の説明"></a></li>
+          <li><a href="works4.html"><img src="img/works4.jpg" alt="作品4の説明"></a></li>
+          <li><a href="works5.html"><img src="img/works5.jpg" alt="作品5の説明"></a></li>
+          <li><a href="works6.html"><img src="img/works6.jpg" alt="作品6の説明"></a></li>
+        </ul>
+      </section>      
+
+      <section id="contact" class="wrapper">
+        <h2 class="sec-title">Contact</h2>
+        <form action="#" method="post">
+          <dl>
+            <dt><label for="name">NAME</label></dt>
+            <dd><input type="text" id="name" name="your-name"></dd>
+            <dt><label for="email">E-mail</label></dt>
+            <dd><input type="email" id="email" name="your-email"></dd>
+            <dt><label for="message">MESSAGE</label></dt>
+            <dd><textarea id="message" name="your-message"></textarea></dd>
+          </dl>
+          <div class="button"><input type="submit" value="送信"></div>
+        </form>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <p>&copy; 2024 My Work Portfolio</p>
+    </footer>
+  </body>
+</html>
